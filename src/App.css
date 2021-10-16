@@ -12,6 +12,7 @@
 
 .construction-wrapper {
   border: 1px solid gray;
+  background-color: #000000;
 }
 
 @keyframes gear-spin {

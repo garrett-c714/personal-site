@@ -1,9 +1,10 @@
 import React from 'react';
+import gear from '../assets/images/circuit-board-gear.png';
 
 const Construction = props => {
     return (
         <div className="flex flex-center construction-wrapper">
-            <img src={require('../../assets/images/circuit-board-gear.png')} alt="Spinning Gear"/>
+            <img src={gear} alt="Spinning Gear"/>
         </div>
     );
 }
