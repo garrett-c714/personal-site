@@ -3,7 +3,9 @@ import Construction from '../components/Construction';
 const Home = props => {
 
     return (
-        <Construction />
+        <div className="flex flex-center home-div">
+            <Construction />
+        </div>
     );
 }
 
