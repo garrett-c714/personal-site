@@ -7,8 +7,8 @@ const Construction = props => {
             <div className='con-inner-wrap flex'>
                 <img src={gear} className="gear" alt="Spinning Gear"/>
                 <div className='cw-div'>
-                    <p className="con-words cw-headline">⚠️ Under Construction</p>
-                    <p className='cw-body'>Something great is coming... stay tuned.</p>
+                    <p className="con-words cw-headline">⚠️ Under Construction ⚠️</p>
+                    <p className='con-words cw-body'>Something great is coming... stay tuned!</p>
                 </div>
             </div>
         </div>

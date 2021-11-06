@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap");
 
 :root {
-  --main-color: #121212;
+  --main-color: #212121;
   --steel: #22303c;
+  --green: #1db954;
+  --yellow: #fac402;
 }
 body {
   background-color: var(--main-color);
@@ -21,9 +24,10 @@ body {
 }
 
 .construction-wrapper {
-  border: 1px solid gray;
+  border: 1px solid white;
   background-color: var(--steel);
   width: 30vw;
+  border-radius: 5%;
 }
 .con-inner-wrap {
   flex-direction: column;
@@ -32,13 +36,20 @@ body {
 .gear {
   width: 70%;
   height: auto;
+  animation: gear-spin 5s linear infinite;
 }
 
 .con-words {
   text-align: center;
 }
 .cw-headline {
-  color: yellow;
+  color: var(--yellow);
+  font-family: "Raleway";
+  font-size: 30px;
+}
+.cw-body {
+  color: white;
+  font-family: "Raleway";
 }
 @keyframes gear-spin {
   from {
